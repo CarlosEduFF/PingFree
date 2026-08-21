@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Status dos serviços</title>
+<style>
+  :root {
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --text: #1a1d21;
+    --muted: #6b7280;
+    --border: #e4e7eb;
+    --up: #17a34a;
+    --down: #dc2626;
+    --idle: #d1d5db;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --card: #171a20;
+      --text: #e8eaed;
+      --muted: #9aa1ab;
+      --border: #262b33;
+      --idle: #2d323b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 4rem;
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin: 0 0 .35rem; letter-spacing: -.02em; }
+  .sub { color: var(--muted); font-size: .875rem; margin: 0 0 2rem; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.25rem;
+    margin-bottom: .85rem;
+  }
+  .row { display: flex; align-items: center; gap: .7rem; flex-wrap: wrap; }
+  .dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+  .dot.up { background: var(--up); box-shadow: 0 0 0 3px color-mix(in srgb, var(--up) 20%, transparent); }
+  .dot.down { background: var(--down); box-shadow: 0 0 0 3px color-mix(in srgb, var(--down) 20%, transparent); }
+  .name { font-weight: 600; }
+  .name a { color: inherit; text-decoration: none; }
+  .name a:hover { text-decoration: underline; }
+  .meta { margin-left: auto; color: var(--muted); font-size: .8125rem; font-variant-numeric: tabular-nums; }
+  .bars { display: flex; gap: 2px; margin-top: .85rem; height: 26px; overflow: hidden; }
+  .bar { flex: 1 1 0; min-width: 2px; border-radius: 2px; background: var(--idle); }
+  .bar.up { background: var(--up); }
+  .bar.down { background: var(--down); }
+  .foot { color: var(--muted); font-size: .8125rem; margin-top: 1.75rem; text-align: center; }
+  .err { color: var(--down); font-size: .8125rem; margin-top: .5rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Status dos serviços</h1>
+  <p class="sub">Verificado automaticamente a cada 10 minutos.</p>
+  <div id="list"></div>
+  <p class="foot" id="foot">Carregando…</p>
+</div>
+
+<script>
+const HISTORY_SLOTS = 48;
+
+function timeAgo(iso) {
+  const diff = (Date.now() - new Date(iso)) / 1000;
+  if (diff < 90) return "agora há pouco";
+  if (diff < 3600) return `há ${Math.round(diff / 60)} min`;
+  if (diff < 86400) return `há ${Math.round(diff / 3600)} h`;
+  return `há ${Math.round(diff / 86400)} d`;
+}
+
+function render(data) {
+  const list = document.getElementById("list");
+  list.innerHTML = "";
+
+  for (const s of data.services) {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    const row = document.createElement("div");
+    row.className = "row";
+    row.innerHTML = `
+      <span class="dot ${s.ok ? "up" : "down"}"></span>
+      <span class="name"><a href="${s.url}" target="_blank" rel="noopener">${s.name}</a></span>
+      <span class="meta">${s.uptime}% · ${s.ms} ms</span>`;
+    card.appendChild(row);
+
+    // Preenche à esquerda com slots vazios quando ainda não há histórico suficiente.
+    const recent = s.history.slice(-HISTORY_SLOTS);
+    const bars = document.createElement("div");
+    bars.className = "bars";
+    for (let i = 0; i < HISTORY_SLOTS - recent.length; i++) {
+      bars.insertAdjacentHTML("beforeend", `<span class="bar"></span>`);
+    }
+    for (const h of recent) {
+      bars.insertAdjacentHTML("beforeend",
+        `<span class="bar ${h.ok ? "up" : "down"}" title="${h.t} — ${h.ms} ms"></span>`);
+    }
+    card.appendChild(bars);
+
+    if (s.error) {
+      card.insertAdjacentHTML("beforeend", `<div class="err">${s.error}</div>`);
+    }
+    list.appendChild(card);
+  }
+
+  document.getElementById("foot").textContent =
+    `Última verificação ${timeAgo(data.generated_at)}.`;
+}
+
+fetch("data/status.json?" + Date.now())
+  .then(r => r.ok ? r.json() : Promise.reject(r.status))
+  .then(render)
+  .catch(() => {
+    document.getElementById("foot").textContent =
+      "Ainda sem dados — rode o workflow \"Ping services\" no GitHub Actions.";
+  });
+</script>
+</body>
+</html>
