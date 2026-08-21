@@ -1,0 +1,19 @@
+{
+  "targets": [
+    {
+      "name": "MyFamilySafe",
+      "url": "https://myfamilysafe.onrender.com/health",
+      "accept": [200]
+    },
+    {
+      "name": "CatScrappy",
+      "url": "https://catscrappy.onrender.com/healthz",
+      "accept": [200]
+    },
+    {
+      "name": "LiVision V3",
+      "url": "https://li-visionv3.onrender.com/healthz",
+      "accept": [200]
+    }
+  ]
+}
