@@ -1,0 +1,42 @@
+name: Ping services
+
+on:
+  schedule:
+    # A cada 10 minutos. O cron do GitHub Actions costuma atrasar alguns
+    # minutos em horários de pico — isso é esperado e não quebra nada.
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ping
+  cancel-in-progress: false
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Ping targets
+        run: python scripts/ping.py
+
+      - name: Commit status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/status.json
+          if git diff --staged --quiet; then
+            echo "Sem mudanças."
+          else
+            git commit -m "chore(status): update ping results"
+            git push
+          fi
