@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-22T06:56:50+00:00",
+  "generated_at": "2026-08-22T07:37:07+00:00",
   "services": [
     {
       "name": "MyFamilySafe",
       "url": "https://myfamilysafe.onrender.com/health",
       "ok": true,
       "code": 200,
-      "ms": 31392,
+      "ms": 31445,
       "error": null,
-      "checked_at": "2026-08-22T06:56:50+00:00",
+      "checked_at": "2026-08-22T07:37:07+00:00",
       "uptime": 100.0,
       "history": [
         {
@@ -145,6 +145,11 @@
           "t": "2026-08-22T06:56:50+00:00",
           "ok": true,
           "ms": 31392
+        },
+        {
+          "t": "2026-08-22T07:37:07+00:00",
+          "ok": true,
+          "ms": 31445
         }
       ]
     },
@@ -153,9 +158,9 @@
       "url": "https://catscrappy.onrender.com/healthz",
       "ok": true,
       "code": 200,
-      "ms": 30681,
+      "ms": 30895,
       "error": null,
-      "checked_at": "2026-08-22T06:56:50+00:00",
+      "checked_at": "2026-08-22T07:37:07+00:00",
       "uptime": 100.0,
       "history": [
         {
@@ -292,18 +297,23 @@
           "t": "2026-08-22T06:56:50+00:00",
           "ok": true,
           "ms": 30681
+        },
+        {
+          "t": "2026-08-22T07:37:07+00:00",
+          "ok": true,
+          "ms": 30895
         }
       ]
     },
     {
       "name": "LiVision V3",
       "url": "https://li-visionv3.onrender.com/healthz",
-      "ok": false,
-      "code": null,
-      "ms": 60070,
-      "error": "TimeoutError",
-      "checked_at": "2026-08-22T06:56:50+00:00",
-      "uptime": 40.74,
+      "ok": true,
+      "code": 200,
+      "ms": 51436,
+      "error": null,
+      "checked_at": "2026-08-22T07:37:07+00:00",
+      "uptime": 42.86,
       "history": [
         {
           "t": "2026-08-21T14:42:40+00:00",
@@ -439,6 +449,11 @@
           "t": "2026-08-22T06:56:50+00:00",
           "ok": false,
           "ms": 60070
+        },
+        {
+          "t": "2026-08-22T07:37:07+00:00",
+          "ok": true,
+          "ms": 51436
         }
       ]
     }
