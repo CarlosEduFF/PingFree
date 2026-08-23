@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-23T14:57:44+00:00",
+  "generated_at": "2026-08-23T15:30:06+00:00",
   "services": [
     {
       "name": "MyFamilySafe",
       "url": "https://myfamilysafe.onrender.com/health",
       "ok": true,
       "code": 200,
-      "ms": 31397,
+      "ms": 32706,
       "error": null,
-      "checked_at": "2026-08-23T14:57:44+00:00",
+      "checked_at": "2026-08-23T15:30:06+00:00",
       "uptime": 100.0,
       "history": [
         {
@@ -440,6 +440,11 @@
           "t": "2026-08-23T14:57:44+00:00",
           "ok": true,
           "ms": 31397
+        },
+        {
+          "t": "2026-08-23T15:30:06+00:00",
+          "ok": true,
+          "ms": 32706
         }
       ]
     },
@@ -448,9 +453,9 @@
       "url": "https://catscrappy.onrender.com/healthz",
       "ok": true,
       "code": 200,
-      "ms": 30605,
+      "ms": 30823,
       "error": null,
-      "checked_at": "2026-08-23T14:57:44+00:00",
+      "checked_at": "2026-08-23T15:30:06+00:00",
       "uptime": 100.0,
       "history": [
         {
@@ -882,18 +887,23 @@
           "t": "2026-08-23T14:57:44+00:00",
           "ok": true,
           "ms": 30605
+        },
+        {
+          "t": "2026-08-23T15:30:06+00:00",
+          "ok": true,
+          "ms": 30823
         }
       ]
     },
     {
       "name": "LiVision V3",
       "url": "https://li-visionv3.onrender.com/healthz",
-      "ok": false,
-      "code": null,
-      "ms": 60134,
-      "error": "TimeoutError",
-      "checked_at": "2026-08-23T14:57:44+00:00",
-      "uptime": 26.74,
+      "ok": true,
+      "code": 200,
+      "ms": 42539,
+      "error": null,
+      "checked_at": "2026-08-23T15:30:06+00:00",
+      "uptime": 27.59,
       "history": [
         {
           "t": "2026-08-21T14:42:40+00:00",
@@ -1324,6 +1334,11 @@
           "t": "2026-08-23T14:57:44+00:00",
           "ok": false,
           "ms": 60134
+        },
+        {
+          "t": "2026-08-23T15:30:06+00:00",
+          "ok": true,
+          "ms": 42539
         }
       ]
     }
