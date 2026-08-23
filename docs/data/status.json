@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-23T16:27:47+00:00",
+  "generated_at": "2026-08-23T16:54:29+00:00",
   "services": [
     {
       "name": "MyFamilySafe",
       "url": "https://myfamilysafe.onrender.com/health",
       "ok": true,
       "code": 200,
-      "ms": 31323,
+      "ms": 31261,
       "error": null,
-      "checked_at": "2026-08-23T16:27:47+00:00",
+      "checked_at": "2026-08-23T16:54:29+00:00",
       "uptime": 100.0,
       "history": [
         {
@@ -455,6 +455,11 @@
           "t": "2026-08-23T16:27:47+00:00",
           "ok": true,
           "ms": 31323
+        },
+        {
+          "t": "2026-08-23T16:54:29+00:00",
+          "ok": true,
+          "ms": 31261
         }
       ]
     },
@@ -463,9 +468,9 @@
       "url": "https://catscrappy.onrender.com/healthz",
       "ok": true,
       "code": 200,
-      "ms": 30649,
+      "ms": 30743,
       "error": null,
-      "checked_at": "2026-08-23T16:27:47+00:00",
+      "checked_at": "2026-08-23T16:54:29+00:00",
       "uptime": 100.0,
       "history": [
         {
@@ -912,18 +917,23 @@
           "t": "2026-08-23T16:27:47+00:00",
           "ok": true,
           "ms": 30649
+        },
+        {
+          "t": "2026-08-23T16:54:29+00:00",
+          "ok": true,
+          "ms": 30743
         }
       ]
     },
     {
       "name": "LiVision V3",
       "url": "https://li-visionv3.onrender.com/healthz",
-      "ok": true,
-      "code": 200,
-      "ms": 41345,
-      "error": null,
-      "checked_at": "2026-08-23T16:27:47+00:00",
-      "uptime": 28.09,
+      "ok": false,
+      "code": null,
+      "ms": 60085,
+      "error": "TimeoutError",
+      "checked_at": "2026-08-23T16:54:29+00:00",
+      "uptime": 27.78,
       "history": [
         {
           "t": "2026-08-21T14:42:40+00:00",
@@ -1369,6 +1379,11 @@
           "t": "2026-08-23T16:27:47+00:00",
           "ok": true,
           "ms": 41345
+        },
+        {
+          "t": "2026-08-23T16:54:29+00:00",
+          "ok": false,
+          "ms": 60085
         }
       ]
     }
