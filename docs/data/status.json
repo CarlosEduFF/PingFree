@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-24T22:36:20+00:00",
+  "generated_at": "2026-08-24T23:00:07+00:00",
   "services": [
     {
       "name": "MyFamilySafe",
       "url": "https://myfamilysafe.onrender.com/health",
       "ok": true,
       "code": 200,
-      "ms": 31363,
+      "ms": 32669,
       "error": null,
-      "checked_at": "2026-08-24T22:36:20+00:00",
-      "uptime": 99.25,
+      "checked_at": "2026-08-24T23:00:07+00:00",
+      "uptime": 99.26,
       "history": [
         {
           "t": "2026-08-21T14:42:40+00:00",
@@ -680,6 +680,11 @@
           "t": "2026-08-24T22:36:20+00:00",
           "ok": true,
           "ms": 31363
+        },
+        {
+          "t": "2026-08-24T23:00:07+00:00",
+          "ok": true,
+          "ms": 32669
         }
       ]
     },
@@ -688,9 +693,9 @@
       "url": "https://catscrappy.onrender.com/healthz",
       "ok": true,
       "code": 200,
-      "ms": 31292,
+      "ms": 31849,
       "error": null,
-      "checked_at": "2026-08-24T22:36:20+00:00",
+      "checked_at": "2026-08-24T23:00:07+00:00",
       "uptime": 100.0,
       "history": [
         {
@@ -1362,18 +1367,23 @@
           "t": "2026-08-24T22:36:20+00:00",
           "ok": true,
           "ms": 31292
+        },
+        {
+          "t": "2026-08-24T23:00:07+00:00",
+          "ok": true,
+          "ms": 31849
         }
       ]
     },
     {
       "name": "LiVision V3",
       "url": "https://li-visionv3.onrender.com/healthz",
-      "ok": false,
-      "code": null,
-      "ms": 60033,
-      "error": "TimeoutError",
-      "checked_at": "2026-08-24T22:36:20+00:00",
-      "uptime": 30.6,
+      "ok": true,
+      "code": 200,
+      "ms": 52438,
+      "error": null,
+      "checked_at": "2026-08-24T23:00:07+00:00",
+      "uptime": 31.11,
       "history": [
         {
           "t": "2026-08-21T14:42:40+00:00",
@@ -2044,6 +2054,11 @@
           "t": "2026-08-24T22:36:20+00:00",
           "ok": false,
           "ms": 60033
+        },
+        {
+          "t": "2026-08-24T23:00:07+00:00",
+          "ok": true,
+          "ms": 52438
         }
       ]
     }
