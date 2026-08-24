@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-24T14:00:22+00:00",
+  "generated_at": "2026-08-24T14:53:30+00:00",
   "services": [
     {
       "name": "MyFamilySafe",
       "url": "https://myfamilysafe.onrender.com/health",
-      "ok": true,
-      "code": 200,
-      "ms": 32532,
-      "error": null,
-      "checked_at": "2026-08-24T14:00:22+00:00",
-      "uptime": 100.0,
+      "ok": false,
+      "code": null,
+      "ms": 60104,
+      "error": "TimeoutError",
+      "checked_at": "2026-08-24T14:53:30+00:00",
+      "uptime": 99.18,
       "history": [
         {
           "t": "2026-08-21T14:42:40+00:00",
@@ -615,6 +615,11 @@
           "t": "2026-08-24T14:00:22+00:00",
           "ok": true,
           "ms": 32532
+        },
+        {
+          "t": "2026-08-24T14:53:30+00:00",
+          "ok": false,
+          "ms": 60104
         }
       ]
     },
@@ -623,9 +628,9 @@
       "url": "https://catscrappy.onrender.com/healthz",
       "ok": true,
       "code": 200,
-      "ms": 29849,
+      "ms": 30665,
       "error": null,
-      "checked_at": "2026-08-24T14:00:22+00:00",
+      "checked_at": "2026-08-24T14:53:30+00:00",
       "uptime": 100.0,
       "history": [
         {
@@ -1232,6 +1237,11 @@
           "t": "2026-08-24T14:00:22+00:00",
           "ok": true,
           "ms": 29849
+        },
+        {
+          "t": "2026-08-24T14:53:30+00:00",
+          "ok": true,
+          "ms": 30665
         }
       ]
     },
@@ -1240,10 +1250,10 @@
       "url": "https://li-visionv3.onrender.com/healthz",
       "ok": false,
       "code": null,
-      "ms": 60097,
+      "ms": 60169,
       "error": "TimeoutError",
-      "checked_at": "2026-08-24T14:00:22+00:00",
-      "uptime": 31.4,
+      "checked_at": "2026-08-24T14:53:30+00:00",
+      "uptime": 31.15,
       "history": [
         {
           "t": "2026-08-21T14:42:40+00:00",
@@ -1849,6 +1859,11 @@
           "t": "2026-08-24T14:00:22+00:00",
           "ok": false,
           "ms": 60097
+        },
+        {
+          "t": "2026-08-24T14:53:30+00:00",
+          "ok": false,
+          "ms": 60169
         }
       ]
     }
