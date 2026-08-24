@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-24T17:43:10+00:00",
+  "generated_at": "2026-08-24T18:16:39+00:00",
   "services": [
     {
       "name": "MyFamilySafe",
       "url": "https://myfamilysafe.onrender.com/health",
       "ok": true,
       "code": 200,
-      "ms": 32360,
+      "ms": 32401,
       "error": null,
-      "checked_at": "2026-08-24T17:43:10+00:00",
+      "checked_at": "2026-08-24T18:16:39+00:00",
       "uptime": 99.21,
       "history": [
         {
@@ -640,6 +640,11 @@
           "t": "2026-08-24T17:43:10+00:00",
           "ok": true,
           "ms": 32360
+        },
+        {
+          "t": "2026-08-24T18:16:39+00:00",
+          "ok": true,
+          "ms": 32401
         }
       ]
     },
@@ -648,9 +653,9 @@
       "url": "https://catscrappy.onrender.com/healthz",
       "ok": true,
       "code": 200,
-      "ms": 31157,
+      "ms": 30598,
       "error": null,
-      "checked_at": "2026-08-24T17:43:10+00:00",
+      "checked_at": "2026-08-24T18:16:39+00:00",
       "uptime": 100.0,
       "history": [
         {
@@ -1282,18 +1287,23 @@
           "t": "2026-08-24T17:43:10+00:00",
           "ok": true,
           "ms": 31157
+        },
+        {
+          "t": "2026-08-24T18:16:39+00:00",
+          "ok": true,
+          "ms": 30598
         }
       ]
     },
     {
       "name": "LiVision V3",
       "url": "https://li-visionv3.onrender.com/healthz",
-      "ok": false,
-      "code": null,
-      "ms": 60121,
-      "error": "TimeoutError",
-      "checked_at": "2026-08-24T17:43:10+00:00",
-      "uptime": 30.95,
+      "ok": true,
+      "code": 200,
+      "ms": 52465,
+      "error": null,
+      "checked_at": "2026-08-24T18:16:39+00:00",
+      "uptime": 31.5,
       "history": [
         {
           "t": "2026-08-21T14:42:40+00:00",
@@ -1924,6 +1934,11 @@
           "t": "2026-08-24T17:43:10+00:00",
           "ok": false,
           "ms": 60121
+        },
+        {
+          "t": "2026-08-24T18:16:39+00:00",
+          "ok": true,
+          "ms": 52465
         }
       ]
     }
