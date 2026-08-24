@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-24T20:52:17+00:00",
+  "generated_at": "2026-08-24T21:30:46+00:00",
   "services": [
     {
       "name": "MyFamilySafe",
       "url": "https://myfamilysafe.onrender.com/health",
       "ok": true,
       "code": 200,
-      "ms": 31268,
+      "ms": 32561,
       "error": null,
-      "checked_at": "2026-08-24T20:52:17+00:00",
+      "checked_at": "2026-08-24T21:30:46+00:00",
       "uptime": 99.24,
       "history": [
         {
@@ -665,6 +665,11 @@
           "t": "2026-08-24T20:52:17+00:00",
           "ok": true,
           "ms": 31268
+        },
+        {
+          "t": "2026-08-24T21:30:46+00:00",
+          "ok": true,
+          "ms": 32561
         }
       ]
     },
@@ -673,9 +678,9 @@
       "url": "https://catscrappy.onrender.com/healthz",
       "ok": true,
       "code": 200,
-      "ms": 30846,
+      "ms": 29671,
       "error": null,
-      "checked_at": "2026-08-24T20:52:17+00:00",
+      "checked_at": "2026-08-24T21:30:46+00:00",
       "uptime": 100.0,
       "history": [
         {
@@ -1332,18 +1337,23 @@
           "t": "2026-08-24T20:52:17+00:00",
           "ok": true,
           "ms": 30846
+        },
+        {
+          "t": "2026-08-24T21:30:46+00:00",
+          "ok": true,
+          "ms": 29671
         }
       ]
     },
     {
       "name": "LiVision V3",
       "url": "https://li-visionv3.onrender.com/healthz",
-      "ok": false,
-      "code": null,
-      "ms": 60094,
-      "error": "TimeoutError",
-      "checked_at": "2026-08-24T20:52:17+00:00",
-      "uptime": 30.53,
+      "ok": true,
+      "code": 200,
+      "ms": 42442,
+      "error": null,
+      "checked_at": "2026-08-24T21:30:46+00:00",
+      "uptime": 31.06,
       "history": [
         {
           "t": "2026-08-21T14:42:40+00:00",
@@ -1999,6 +2009,11 @@
           "t": "2026-08-24T20:52:17+00:00",
           "ok": false,
           "ms": 60094
+        },
+        {
+          "t": "2026-08-24T21:30:46+00:00",
+          "ok": true,
+          "ms": 42442
         }
       ]
     }
