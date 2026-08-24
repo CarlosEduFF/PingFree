@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-24T14:53:30+00:00",
+  "generated_at": "2026-08-24T15:40:13+00:00",
   "services": [
     {
       "name": "MyFamilySafe",
       "url": "https://myfamilysafe.onrender.com/health",
-      "ok": false,
-      "code": null,
-      "ms": 60104,
-      "error": "TimeoutError",
-      "checked_at": "2026-08-24T14:53:30+00:00",
-      "uptime": 99.18,
+      "ok": true,
+      "code": 200,
+      "ms": 32412,
+      "error": null,
+      "checked_at": "2026-08-24T15:40:13+00:00",
+      "uptime": 99.19,
       "history": [
         {
           "t": "2026-08-21T14:42:40+00:00",
@@ -620,6 +620,11 @@
           "t": "2026-08-24T14:53:30+00:00",
           "ok": false,
           "ms": 60104
+        },
+        {
+          "t": "2026-08-24T15:40:13+00:00",
+          "ok": true,
+          "ms": 32412
         }
       ]
     },
@@ -628,9 +633,9 @@
       "url": "https://catscrappy.onrender.com/healthz",
       "ok": true,
       "code": 200,
-      "ms": 30665,
+      "ms": 30937,
       "error": null,
-      "checked_at": "2026-08-24T14:53:30+00:00",
+      "checked_at": "2026-08-24T15:40:13+00:00",
       "uptime": 100.0,
       "history": [
         {
@@ -1242,18 +1247,23 @@
           "t": "2026-08-24T14:53:30+00:00",
           "ok": true,
           "ms": 30665
+        },
+        {
+          "t": "2026-08-24T15:40:13+00:00",
+          "ok": true,
+          "ms": 30937
         }
       ]
     },
     {
       "name": "LiVision V3",
       "url": "https://li-visionv3.onrender.com/healthz",
-      "ok": false,
-      "code": null,
-      "ms": 60169,
-      "error": "TimeoutError",
-      "checked_at": "2026-08-24T14:53:30+00:00",
-      "uptime": 31.15,
+      "ok": true,
+      "code": 200,
+      "ms": 52354,
+      "error": null,
+      "checked_at": "2026-08-24T15:40:13+00:00",
+      "uptime": 31.71,
       "history": [
         {
           "t": "2026-08-21T14:42:40+00:00",
@@ -1864,6 +1874,11 @@
           "t": "2026-08-24T14:53:30+00:00",
           "ok": false,
           "ms": 60169
+        },
+        {
+          "t": "2026-08-24T15:40:13+00:00",
+          "ok": true,
+          "ms": 52354
         }
       ]
     }
