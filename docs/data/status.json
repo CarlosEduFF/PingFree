@@ -1,21 +1,16 @@
 {
-  "generated_at": "2026-08-28T17:28:52+00:00",
+  "generated_at": "2026-08-29T01:07:37+00:00",
   "services": [
     {
       "name": "MyFamilySafe",
       "url": "https://myfamilysafe.onrender.com/health",
       "ok": true,
       "code": 200,
-      "ms": 32608,
+      "ms": 31380,
       "error": null,
-      "checked_at": "2026-08-28T17:28:52+00:00",
+      "checked_at": "2026-08-29T01:07:37+00:00",
       "uptime": 99.31,
       "history": [
-        {
-          "t": "2026-08-22T19:11:31+00:00",
-          "ok": true,
-          "ms": 31322
-        },
         {
           "t": "2026-08-22T19:40:59+00:00",
           "ok": true,
@@ -730,6 +725,11 @@
           "t": "2026-08-28T17:28:52+00:00",
           "ok": true,
           "ms": 32608
+        },
+        {
+          "t": "2026-08-29T01:07:37+00:00",
+          "ok": true,
+          "ms": 31380
         }
       ]
     },
@@ -738,16 +738,11 @@
       "url": "https://catscrappy.onrender.com/healthz",
       "ok": true,
       "code": 200,
-      "ms": 30808,
+      "ms": 30724,
       "error": null,
-      "checked_at": "2026-08-28T17:28:52+00:00",
+      "checked_at": "2026-08-29T01:07:37+00:00",
       "uptime": 100.0,
       "history": [
-        {
-          "t": "2026-08-22T19:11:31+00:00",
-          "ok": true,
-          "ms": 30166
-        },
         {
           "t": "2026-08-22T19:40:59+00:00",
           "ok": true,
@@ -1462,24 +1457,24 @@
           "t": "2026-08-28T17:28:52+00:00",
           "ok": true,
           "ms": 30808
+        },
+        {
+          "t": "2026-08-29T01:07:37+00:00",
+          "ok": true,
+          "ms": 30724
         }
       ]
     },
     {
       "name": "LiVision V3",
       "url": "https://li-visionv3.onrender.com/healthz",
-      "ok": false,
-      "code": null,
-      "ms": 60123,
-      "error": "TimeoutError",
-      "checked_at": "2026-08-28T17:28:52+00:00",
-      "uptime": 31.25,
+      "ok": true,
+      "code": 200,
+      "ms": 337,
+      "error": null,
+      "checked_at": "2026-08-29T01:07:37+00:00",
+      "uptime": 31.94,
       "history": [
-        {
-          "t": "2026-08-22T19:11:31+00:00",
-          "ok": false,
-          "ms": 60056
-        },
         {
           "t": "2026-08-22T19:40:59+00:00",
           "ok": false,
@@ -2194,6 +2189,11 @@
           "t": "2026-08-28T17:28:52+00:00",
           "ok": false,
           "ms": 60123
+        },
+        {
+          "t": "2026-08-29T01:07:37+00:00",
+          "ok": true,
+          "ms": 337
         }
       ]
     }
