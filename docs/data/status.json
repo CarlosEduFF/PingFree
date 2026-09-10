@@ -1,21 +1,16 @@
 {
-  "generated_at": "2026-09-10T05:59:15+00:00",
+  "generated_at": "2026-09-10T11:08:26+00:00",
   "services": [
     {
       "name": "MyFamilySafe",
       "url": "https://myfamilysafe.onrender.com/health",
       "ok": true,
       "code": 200,
-      "ms": 31321,
+      "ms": 31377,
       "error": null,
-      "checked_at": "2026-09-10T05:59:15+00:00",
+      "checked_at": "2026-09-10T11:08:26+00:00",
       "uptime": 100.0,
       "history": [
-        {
-          "t": "2026-08-24T23:30:02+00:00",
-          "ok": true,
-          "ms": 32323
-        },
         {
           "t": "2026-08-24T23:52:14+00:00",
           "ok": true,
@@ -730,6 +725,11 @@
           "t": "2026-09-10T05:59:15+00:00",
           "ok": true,
           "ms": 31321
+        },
+        {
+          "t": "2026-09-10T11:08:26+00:00",
+          "ok": true,
+          "ms": 31377
         }
       ]
     },
@@ -738,16 +738,11 @@
       "url": "https://catscrappy.onrender.com/healthz",
       "ok": true,
       "code": 200,
-      "ms": 25324,
+      "ms": 23899,
       "error": null,
-      "checked_at": "2026-09-10T05:59:15+00:00",
+      "checked_at": "2026-09-10T11:08:26+00:00",
       "uptime": 100.0,
       "history": [
-        {
-          "t": "2026-08-24T23:30:02+00:00",
-          "ok": true,
-          "ms": 42569
-        },
         {
           "t": "2026-08-24T23:52:14+00:00",
           "ok": true,
@@ -1462,24 +1457,24 @@
           "t": "2026-09-10T05:59:15+00:00",
           "ok": true,
           "ms": 25324
+        },
+        {
+          "t": "2026-09-10T11:08:26+00:00",
+          "ok": true,
+          "ms": 23899
         }
       ]
     },
     {
       "name": "LiVision V3",
       "url": "https://li-visionv3.onrender.com/healthz",
-      "ok": true,
-      "code": 200,
-      "ms": 52429,
-      "error": null,
-      "checked_at": "2026-09-10T05:59:15+00:00",
-      "uptime": 25.0,
+      "ok": false,
+      "code": null,
+      "ms": 60090,
+      "error": "TimeoutError",
+      "checked_at": "2026-09-10T11:08:26+00:00",
+      "uptime": 24.31,
       "history": [
-        {
-          "t": "2026-08-24T23:30:02+00:00",
-          "ok": true,
-          "ms": 51333
-        },
         {
           "t": "2026-08-24T23:52:14+00:00",
           "ok": false,
@@ -2194,6 +2189,11 @@
           "t": "2026-09-10T05:59:15+00:00",
           "ok": true,
           "ms": 52429
+        },
+        {
+          "t": "2026-09-10T11:08:26+00:00",
+          "ok": false,
+          "ms": 60090
         }
       ]
     }
