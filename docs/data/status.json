@@ -1,21 +1,16 @@
 {
-  "generated_at": "2026-10-13T23:53:56+00:00",
+  "generated_at": "2026-10-14T03:58:35+00:00",
   "services": [
     {
       "name": "MyFamilySafe",
       "url": "https://myfamilysafe.onrender.com/health",
       "ok": true,
       "code": 200,
-      "ms": 31324,
+      "ms": 31386,
       "error": null,
-      "checked_at": "2026-10-13T23:53:56+00:00",
+      "checked_at": "2026-10-14T03:58:35+00:00",
       "uptime": 98.61,
       "history": [
-        {
-          "t": "2026-09-17T00:29:21+00:00",
-          "ok": true,
-          "ms": 31254
-        },
         {
           "t": "2026-09-17T05:14:49+00:00",
           "ok": true,
@@ -730,6 +725,11 @@
           "t": "2026-10-13T23:53:56+00:00",
           "ok": true,
           "ms": 31324
+        },
+        {
+          "t": "2026-10-14T03:58:35+00:00",
+          "ok": true,
+          "ms": 31386
         }
       ]
     },
@@ -738,16 +738,11 @@
       "url": "https://catscrappy.onrender.com/healthz",
       "ok": true,
       "code": 200,
-      "ms": 38115,
+      "ms": 30226,
       "error": null,
-      "checked_at": "2026-10-13T23:53:56+00:00",
+      "checked_at": "2026-10-14T03:58:35+00:00",
       "uptime": 97.92,
       "history": [
-        {
-          "t": "2026-09-17T00:29:21+00:00",
-          "ok": true,
-          "ms": 25161
-        },
         {
           "t": "2026-09-17T05:14:49+00:00",
           "ok": true,
@@ -1462,24 +1457,24 @@
           "t": "2026-10-13T23:53:56+00:00",
           "ok": true,
           "ms": 38115
+        },
+        {
+          "t": "2026-10-14T03:58:35+00:00",
+          "ok": true,
+          "ms": 30226
         }
       ]
     },
     {
       "name": "LiVision V3",
       "url": "https://li-visionv3.onrender.com/healthz",
-      "ok": false,
-      "code": null,
-      "ms": 60112,
-      "error": "TimeoutError",
-      "checked_at": "2026-10-13T23:53:56+00:00",
+      "ok": true,
+      "code": 200,
+      "ms": 53647,
+      "error": null,
+      "checked_at": "2026-10-14T03:58:35+00:00",
       "uptime": 17.36,
       "history": [
-        {
-          "t": "2026-09-17T00:29:21+00:00",
-          "ok": true,
-          "ms": 52642
-        },
         {
           "t": "2026-09-17T05:14:49+00:00",
           "ok": false,
@@ -2194,6 +2189,11 @@
           "t": "2026-10-13T23:53:56+00:00",
           "ok": false,
           "ms": 60112
+        },
+        {
+          "t": "2026-10-14T03:58:35+00:00",
+          "ok": true,
+          "ms": 53647
         }
       ]
     }
