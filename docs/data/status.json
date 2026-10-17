@@ -1,21 +1,16 @@
 {
-  "generated_at": "2026-10-17T16:53:16+00:00",
+  "generated_at": "2026-10-17T19:03:44+00:00",
   "services": [
     {
       "name": "MyFamilySafe",
       "url": "https://myfamilysafe.onrender.com/health",
       "ok": true,
       "code": 200,
-      "ms": 32347,
+      "ms": 32335,
       "error": null,
-      "checked_at": "2026-10-17T16:53:16+00:00",
+      "checked_at": "2026-10-17T19:03:44+00:00",
       "uptime": 97.22,
       "history": [
-        {
-          "t": "2026-09-20T11:16:29+00:00",
-          "ok": true,
-          "ms": 31423
-        },
         {
           "t": "2026-09-20T14:43:57+00:00",
           "ok": true,
@@ -730,6 +725,11 @@
           "t": "2026-10-17T16:53:16+00:00",
           "ok": true,
           "ms": 32347
+        },
+        {
+          "t": "2026-10-17T19:03:44+00:00",
+          "ok": true,
+          "ms": 32335
         }
       ]
     },
@@ -738,16 +738,11 @@
       "url": "https://catscrappy.onrender.com/healthz",
       "ok": false,
       "code": null,
-      "ms": 60096,
+      "ms": 60092,
       "error": "TimeoutError",
-      "checked_at": "2026-10-17T16:53:16+00:00",
-      "uptime": 92.36,
+      "checked_at": "2026-10-17T19:03:44+00:00",
+      "uptime": 91.67,
       "history": [
-        {
-          "t": "2026-09-20T11:16:29+00:00",
-          "ok": true,
-          "ms": 25110
-        },
         {
           "t": "2026-09-20T14:43:57+00:00",
           "ok": true,
@@ -1462,6 +1457,11 @@
           "t": "2026-10-17T16:53:16+00:00",
           "ok": false,
           "ms": 60096
+        },
+        {
+          "t": "2026-10-17T19:03:44+00:00",
+          "ok": false,
+          "ms": 60092
         }
       ]
     },
@@ -1470,16 +1470,11 @@
       "url": "https://li-visionv3.onrender.com/healthz",
       "ok": false,
       "code": null,
-      "ms": 60102,
+      "ms": 60121,
       "error": "TimeoutError",
-      "checked_at": "2026-10-17T16:53:16+00:00",
+      "checked_at": "2026-10-17T19:03:44+00:00",
       "uptime": 15.28,
       "history": [
-        {
-          "t": "2026-09-20T11:16:29+00:00",
-          "ok": false,
-          "ms": 60089
-        },
         {
           "t": "2026-09-20T14:43:57+00:00",
           "ok": false,
@@ -2194,6 +2189,11 @@
           "t": "2026-10-17T16:53:16+00:00",
           "ok": false,
           "ms": 60102
+        },
+        {
+          "t": "2026-10-17T19:03:44+00:00",
+          "ok": false,
+          "ms": 60121
         }
       ]
     }
