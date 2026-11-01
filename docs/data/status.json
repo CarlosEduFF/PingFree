@@ -1,21 +1,16 @@
 {
-  "generated_at": "2026-11-01T14:30:48+00:00",
+  "generated_at": "2026-11-01T19:10:35+00:00",
   "services": [
     {
       "name": "MyFamilySafe",
       "url": "https://myfamilysafe.onrender.com/health",
       "ok": true,
       "code": 200,
-      "ms": 42408,
+      "ms": 41353,
       "error": null,
-      "checked_at": "2026-11-01T14:30:48+00:00",
+      "checked_at": "2026-11-01T19:10:35+00:00",
       "uptime": 96.53,
       "history": [
-        {
-          "t": "2026-10-06T06:10:09+00:00",
-          "ok": true,
-          "ms": 32333
-        },
         {
           "t": "2026-10-06T13:25:16+00:00",
           "ok": true,
@@ -730,6 +725,11 @@
           "t": "2026-11-01T14:30:48+00:00",
           "ok": true,
           "ms": 42408
+        },
+        {
+          "t": "2026-11-01T19:10:35+00:00",
+          "ok": true,
+          "ms": 41353
         }
       ]
     },
@@ -738,16 +738,11 @@
       "url": "https://catscrappy.onrender.com/healthz",
       "ok": true,
       "code": 200,
-      "ms": 32250,
+      "ms": 184,
       "error": null,
-      "checked_at": "2026-11-01T14:30:48+00:00",
+      "checked_at": "2026-11-01T19:10:35+00:00",
       "uptime": 92.36,
       "history": [
-        {
-          "t": "2026-10-06T06:10:09+00:00",
-          "ok": true,
-          "ms": 38030
-        },
         {
           "t": "2026-10-06T13:25:16+00:00",
           "ok": true,
@@ -1462,24 +1457,24 @@
           "t": "2026-11-01T14:30:48+00:00",
           "ok": true,
           "ms": 32250
+        },
+        {
+          "t": "2026-11-01T19:10:35+00:00",
+          "ok": true,
+          "ms": 184
         }
       ]
     },
     {
       "name": "LiVision V3",
       "url": "https://li-visionv3.onrender.com/healthz",
-      "ok": false,
-      "code": null,
-      "ms": 60112,
-      "error": "TimeoutError",
-      "checked_at": "2026-11-01T14:30:48+00:00",
-      "uptime": 11.81,
+      "ok": true,
+      "code": 200,
+      "ms": 51361,
+      "error": null,
+      "checked_at": "2026-11-01T19:10:35+00:00",
+      "uptime": 12.5,
       "history": [
-        {
-          "t": "2026-10-06T06:10:09+00:00",
-          "ok": false,
-          "ms": 60127
-        },
         {
           "t": "2026-10-06T13:25:16+00:00",
           "ok": false,
@@ -2194,6 +2189,11 @@
           "t": "2026-11-01T14:30:48+00:00",
           "ok": false,
           "ms": 60112
+        },
+        {
+          "t": "2026-11-01T19:10:35+00:00",
+          "ok": true,
+          "ms": 51361
         }
       ]
     },
@@ -2202,10 +2202,10 @@
       "url": "https://li-vision-api.onrender.com/healthz",
       "ok": false,
       "code": null,
-      "ms": 60099,
+      "ms": 60136,
       "error": "TimeoutError",
-      "checked_at": "2026-11-01T14:30:48+00:00",
-      "uptime": 20.0,
+      "checked_at": "2026-11-01T19:10:35+00:00",
+      "uptime": 19.05,
       "history": [
         {
           "t": "2026-10-28T14:28:51+00:00",
@@ -2306,6 +2306,11 @@
           "t": "2026-11-01T14:30:48+00:00",
           "ok": false,
           "ms": 60099
+        },
+        {
+          "t": "2026-11-01T19:10:35+00:00",
+          "ok": false,
+          "ms": 60136
         }
       ]
     }
